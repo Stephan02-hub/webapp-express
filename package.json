@@ -1,0 +1,23 @@
+{
+  "name": "express-blog-routing",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephan02-hub/express-blog-routing.git"
+  },
+  "author": "Stephan braghese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephan02-hub/express-blog-routing/issues"
+  },
+  "homepage": "https://github.com/Stephan02-hub/express-blog-routing#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
