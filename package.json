@@ -1,23 +1,16 @@
 {
-  "name": "express-blog-routing",
+  "name": "lc-be-web-app-movies",
   "version": "1.0.0",
   "main": "app.js",
+  "author": "Erika",
   "scripts": {
-    "start": "node app.js",
-    "watch": "node --watch app.js"
+    "start": "node --env-file=.env app.js",
+    "watch": "node --env-file=.env --watch app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Stephan02-hub/express-blog-routing.git"
-  },
-  "author": "Stephan braghese",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Stephan02-hub/express-blog-routing/issues"
-  },
-  "homepage": "https://github.com/Stephan02-hub/express-blog-routing#readme",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0"
   }
 }
